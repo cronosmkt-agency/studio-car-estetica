@@ -68,16 +68,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Studio Car — Martelinho de Ouro & Polimento Técnico | Estácio Várzea" },
-      { name: "description", content: "Martelinho de ouro sem repintura, vitrificação cerâmica e polimento espelhado com Davidson e equipe no complexo da Estácio Teresópolis." },
+      { title: "Studio Car — Martelinho de Ouro & Estética Automotiva | Estácio Várzea, Teresópolis" },
+      { name: "description", content: "Martelinho de ouro sem repintura, polimento técnico espelhado e vitrificação cerâmica com Davidson e equipe no complexo da Estácio Teresópolis. Avaliação por foto no WhatsApp." },
       { property: "og:title", content: "Studio Car Estética Automotiva & Martelinho de Ouro" },
-      { property: "og:description", content: "Elimine amassados sem repintar e preserve a originalidade do seu carro." },
+      { property: "og:description", content: "Elimine amassados sem repintar e preserve a originalidade de fábrica do seu carro." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", type: "image/svg+xml", href: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='#0a0a0a'/><text x='50%' y='55%' text-anchor='middle' dominant-baseline='middle' fill='white' font-family='sans-serif' font-weight='800' font-size='40'>SC</text></svg>" },
+      { rel: "icon", type: "image/svg+xml", href: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%2309090b'/><text x='50%' y='55%' text-anchor='middle' dominant-baseline='middle' fill='%23EAB308' font-family='sans-serif' font-weight='800' font-size='40'>SC</text></svg>" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
